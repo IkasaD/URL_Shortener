@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Short URL
+{% endblock %}
+
+{% block body %}
+<p>Here's your shortened URL:</p>
+    
+    <a href="{{short_url}}">127.0.0.1:5000/{{short_url}}</a>
+    
+{% endblock %}
